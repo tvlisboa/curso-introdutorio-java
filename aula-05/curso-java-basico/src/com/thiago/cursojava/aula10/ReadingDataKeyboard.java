@@ -39,6 +39,9 @@ public class ReadingDataKeyboard {
         System.out.println("Qual seu estado civil? ");
         String status = scanner.next();
 
+        System.out.println("Possui dependentes ? ");
+        boolean dependentes = scanner.nextBoolean();
+
 
         System.out.println("#####----------#####");
         System.out.println("Iniciando o sistema para recolhimento de dados");
@@ -50,6 +53,7 @@ public class ReadingDataKeyboard {
         System.out.println("Altura do usuario atualmente: " + height);
         System.out.println("Peso do usuario atualmente: " + weight);
         System.out.println("O estado civil atualmente: " + status);
+        System.out.println("Possui dependentes ?" + dependentes);
         System.out.println("Obrigado por informar seus dados");
         System.out.println("Finalizando o processo de recolhimento de dados");
         System.out.println("#####----------#####");
