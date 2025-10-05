@@ -15,35 +15,44 @@ public class ReadingDataKeyboard {
 
         /**
          * Solicitado ao usuario, para inserir seus dados
-         * nome, idade, altura, peso e estado civil
+         * name, age, height, weight, status
          */
 
-        System.out.println("Insira seu nome a seguir: ");
-        String nome = scanner.nextLine();
+        System.out.println("Insira seu nome completo a seguir: ");
+        String fullname = scanner.nextLine();
+
+        System.out.println("Insira o primeiro nome a seguir ");
+        String firstName = scanner.next();
+
+        System.out.println("Insira o ultimo nome a seguir ");
+        String lastName = scanner.next();
 
         System.out.println("Insira sua idade: ");
-        int idade = scanner.nextInt();
+        int age = scanner.nextInt();
 
         System.out.println("Insira sua altura: ");
-        double altura = scanner.nextDouble();
+        double height = scanner.nextDouble();
 
         System.out.println("Insira sua peso: ");
-        double peso = scanner.nextDouble();
+        double weight = scanner.nextDouble();
 
         System.out.println("Qual seu estado civil? ");
-        String estadoCivil = scanner.next();
+        String status = scanner.next();
 
 
-        System.out.println("-----------------------------");
+        System.out.println("#####----------#####");
         System.out.println("Iniciando o sistema para recolhimento de dados");
         System.out.println("Os dados informados do usuario foram: ");
-        System.out.println("Ola : " + nome + " Seja-bem vindo as primeiras aulas de javabasico");
-        System.out.println("Idade do usario atualmente: " + idade);
-        System.out.println("Altura do usario atualmente: " + altura);
-        System.out.println("Peso do usario atualmente: " + peso);
-        System.out.println("O estado atualmente: " + estadoCivil);
+        System.out.println("Ola : " + fullname + " Seja-bem vindo as primeiras aulas de javabasico");
+        System.out.println("Primeiro nome do usuario: " + firstName);
+        System.out.println("Ultimo nome do usuario: " + lastName);
+        System.out.println("Idade do usario atualmente: " + age );
+        System.out.println("Altura do usuario atualmente: " + height);
+        System.out.println("Peso do usuario atualmente: " + weight);
+        System.out.println("O estado civil atualmente: " + status);
+        System.out.println("Obrigado por informar seus dados");
         System.out.println("Finalizando o processo de recolhimento de dados");
-        System.out.println("-----------------------------");
+        System.out.println("#####----------#####");
 
 
     }
