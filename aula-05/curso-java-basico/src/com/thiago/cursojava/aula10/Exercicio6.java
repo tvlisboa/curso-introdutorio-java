@@ -16,7 +16,9 @@ public class Exercicio6 {
         double raio = sc.nextDouble();
 
         double areaCirculo = Math.PI * raio * raio;
+        double areaCirculo2 = Math.PI * Math.pow(raio, 2);
 
         System.out.println("A area do raio é " + areaCirculo);
+        System.out.println("A area do raio é " + areaCirculo2);
     }
 }
