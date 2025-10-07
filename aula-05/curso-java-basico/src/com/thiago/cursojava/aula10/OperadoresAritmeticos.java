@@ -32,7 +32,7 @@ public class OperadoresAritmeticos {
          */
 
         String firstString = "Exercicio sobre operadores logicos";
-        String secondString = "Concatenando as strings declaraadas";
+        String secondString = "Concatenando as strings declaradas";
         String lastString = firstString + " " + secondString;
         System.out.println(lastString);
 
@@ -41,6 +41,7 @@ public class OperadoresAritmeticos {
          * result ++
          */
 
+        //incrementos
         result = result + 1;
         System.out.println(result);
 
@@ -52,6 +53,7 @@ public class OperadoresAritmeticos {
          * result --
          */
 
+        //decrementos
         result = result - 1;
         System.out.println(result);
 
