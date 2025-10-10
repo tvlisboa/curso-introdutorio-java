@@ -46,7 +46,8 @@ public class ReadingDataKeyboard {
         System.out.println("#####----------#####");
         System.out.println("Iniciando o sistema para recolhimento de dados");
         System.out.println("Os dados informados do usuario foram: ");
-        System.out.println("Ola : " + fullname + " Seja-bem vindo as primeiras aulas de javabasico");
+        System.out.println("Ola : " + fullname );
+        System.out.println("Seja-bem vindo as primeiras aulas de javabasico.");
         System.out.println("Primeiro nome do usuario: " + firstName);
         System.out.println("Ultimo nome do usuario: " + lastName);
         System.out.println("Idade do usario atualmente: " + age );

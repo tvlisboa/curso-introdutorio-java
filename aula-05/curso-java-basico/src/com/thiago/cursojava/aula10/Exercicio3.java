@@ -16,7 +16,8 @@ public class Exercicio3 {
 
         double sum = number1 + number2;
 
-        System.out.println("A soma dos numeros  informados pelo usuario foram: " + sum);
+        System.out.println("A soma dos numeros  informados pelo usuario foram: ");
+        System.out.println(sum);
         System.out.println("Fechando o arquivo Exercicio3");
     }
 }

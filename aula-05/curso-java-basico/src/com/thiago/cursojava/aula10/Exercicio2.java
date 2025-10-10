@@ -7,8 +7,9 @@ public class Exercicio2 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Exercicio 2");
+
         System.out.println("Insira um numero a seguir! ");
-        double number1 = sc.nextFloat();
+        double number1 = sc.nextDouble();
 
         System.out.println("Numero informado pelo usuario é :" + number1);
     }
