@@ -42,6 +42,10 @@ public class ReadingDataKeyboard {
         System.out.println("Possui dependentes ? ");
         boolean dependentes = scanner.nextBoolean();
 
+        /**
+         * Informações agrupadas
+         * e mostradas na tela do usuario
+         */
 
         System.out.println("#####----------#####");
         System.out.println("Iniciando o sistema para recolhimento de dados");

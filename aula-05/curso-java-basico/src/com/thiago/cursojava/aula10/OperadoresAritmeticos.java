@@ -8,21 +8,27 @@ public class OperadoresAritmeticos {
          * para somar dois valores
          */
 
+        //3
         int result = 2 + 1;
         System.out.println(result);
 
+        //2
         result = result - 1;
         System.out.println(result);
 
+        //4
         result = result * 2;
         System.out.println(result);
 
+        //2
         result = result / 2;
         System.out.println(result);
 
+        //10
         result = result + 8;
         System.out.println(result);
 
+        //3
         result = result % 7;
         System.out.println(result);
 

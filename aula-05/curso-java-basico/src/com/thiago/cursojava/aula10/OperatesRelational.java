@@ -7,12 +7,12 @@ public class OperatesRelational {
 
         double result = value1 + value2;
 
-        System.out.println("Value 1 == Value 2: " + (value1 == value2));
-        System.out.println("Value 1 != Value 2: " + (value1 != value2));
-        System.out.println("Value 1 > Value 2: " + (value1 > value2));
-        System.out.println("Value 1 >= Value 2: " + (value1 >= value2));
-        System.out.println("Value 1 < Value 2: " + (value1 < value2));
-        System.out.println("Value 1 <= Value 2: " + (value1 <= value2));
+        System.out.println("Value 1 == Value 2: " + (value1 == value2));    //false
+        System.out.println("Value 1 != Value 2: " + (value1 != value2));    //true
+        System.out.println("Value 1 > Value 2: " + (value1 > value2));      //false
+        System.out.println("Value 1 >= Value 2: " + (value1 >= value2));    //false
+        System.out.println("Value 1 < Value 2: " + (value1 < value2));      //true
+        System.out.println("Value 1 <= Value 2: " + (value1 <= value2));    //true
         System.out.println(result);
     }
 }
