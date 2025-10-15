@@ -8,17 +8,19 @@ public class OperadoresLogicos {
         boolean result2 = (value1 == 1) || (value2 == 3);
         boolean result3 = (value1 >= 11) || (value2 == 3);
 
-        System.out.println("Value1 is 1 AND Value2 is 2 = result is:" + result1); //true
-        System.out.println("Value1 is 1 OR Value2 is 2 = result is:"  + result2); //true
-        System.out.println("Value1 is 1 OR Value2 is 2 = result is:"  + result3); //false
+        System.out.println("Valor 1 é igual a 1 e valor 2 é igual a 2 = result: " + result1); //true
+        System.out.println("Valor 1 é igual a 1 e valor 2 é igual a 3 = result: " + result2); //true
+        System.out.println("Valor 1 é maior ou igual a 11 ou o valor 2 é igual a 3 = result: " + result3); //false
 
         boolean verdadeiro = true;
         boolean falso = false;
 
-        System.out.println(verdadeiro && falso);
-        System.out.println(verdadeiro || falso);
-        System.out.println(verdadeiro ^ falso);
-        System.out.println(!verdadeiro && falso);
-
+        System.out.println(verdadeiro && falso);  //false
+        System.out.println(falso && verdadeiro);  //false
+        System.out.println(verdadeiro || falso);  //true
+        System.out.println(falso || verdadeiro);  //true
+        System.out.println(verdadeiro ^ falso);   //true
+        System.out.println(!verdadeiro && falso); //false
+        System.out.println(verdadeiro && !falso); //true
     }
 }
