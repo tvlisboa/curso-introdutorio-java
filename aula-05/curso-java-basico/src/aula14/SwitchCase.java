@@ -27,18 +27,6 @@ public class SwitchCase {
             default: System.out.println("Dia invalido");
             break;
         }
-
-        switch (diaSemana){
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6: System.out.println("Dia informado é um dia util:");
-            break;
-            case 1:
-            case 7: System.out.println("Dia informado é um fim de semana: ");
-            break;
-            default: System.out.println("Dia informado é invalido");
-        }
+        sc.close();
     }
 }
