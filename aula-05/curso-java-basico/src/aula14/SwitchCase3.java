@@ -18,8 +18,8 @@ public class SwitchCase3 {
             case 6: System.out.println("Sexta-Feira");
                 System.out.println("Os dias informados são dias úteis:");
                 break;
-            case 1: System.out.println("Domingo");
             case 7: System.out.println("Sábado");
+            case 1: System.out.println("Domingo");
                 System.out.println("Dias informados são um: ");
                 break;
             default: System.out.println("Dia informado é invalido");
