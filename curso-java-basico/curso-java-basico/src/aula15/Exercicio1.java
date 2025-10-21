@@ -8,7 +8,7 @@ public class Exercicio1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Insira dois numeros a seguir.");
-        System.out.print("Digite um numero aa seguir: ");
+        System.out.print("Digite um numero a seguir: ");
         int num1 = sc.nextInt();
 
         System.out.print("Digite outro numero a seguir: ");

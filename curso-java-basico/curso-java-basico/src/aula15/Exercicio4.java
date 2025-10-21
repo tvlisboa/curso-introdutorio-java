@@ -11,7 +11,7 @@ public class Exercicio4 {
         String letra = sc.nextLine().toUpperCase();
 
         if(letra.length() > 1){
-            System.out.println("Nao é um caracter valido");
+            System.out.println("Nao é um caractere valido");
         }else{
             switch (letra) {
                 case "A":
