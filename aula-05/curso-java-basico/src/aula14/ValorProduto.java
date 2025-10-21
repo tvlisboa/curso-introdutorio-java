@@ -11,12 +11,16 @@ public class ValorProduto {
 
         if(valorProd <= 10){
             System.out.println("Abaixo do preco.");
-        } else if (valorProd >= 10 && valorProd <= 15) {
+
+        } else if (valorProd > 10 && valorProd < 15) {
             System.out.println("Um pouco acima do preco");
-        } else if (valorProd >= 15 && valorProd <= 25) {
+
+        } else if (valorProd >= 15 && valorProd < 25) {
             System.out.println("Produto acima do preco");
-        } else if (valorProd >= 25 && valorProd <= 50) {
+
+        } else if (valorProd >= 25 && valorProd < 50) {
             System.out.println("Acima do preco nos ultimos 30 dias");
+
         }else {
             System.out.println("Aguardar promocao.");
         }

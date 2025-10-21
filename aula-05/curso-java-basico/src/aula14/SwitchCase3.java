@@ -20,7 +20,7 @@ public class SwitchCase3 {
                 break;
             case 7: System.out.println("Sábado");
             case 1: System.out.println("Domingo");
-                System.out.println("Dias informados são um: ");
+                System.out.println("Dias informados são dias de fim de semana: ");
                 break;
             default: System.out.println("Dia informado é invalido");
         }
