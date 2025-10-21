@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a492f335-74d2-40e0-bcf7-4921efb40271" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tvlisboa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tvlisboa/curso-introdutorio-java.git&quot;,
+    &quot;accountId&quot;: &quot;289ed569-bfb9-4de0-b860-e9d317a5f66d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="33OdY7zHKCW58bp7TpGCtj7jxoH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Argumentos.executor": "Run",
+    "Application.Circuit.executor": "Debug",
+    "Application.Erro01.executor": "Run",
+    "Application.Erro02.executor": "Run",
+    "Application.Erro03.executor": "Run",
+    "Application.Exercicio1.executor": "Run",
+    "Application.Exercicio10.executor": "Run",
+    "Application.Exercicio11.executor": "Run",
+    "Application.Exercicio12.executor": "Run",
+    "Application.Exercicio13.executor": "Run",
+    "Application.Exercicio14.executor": "Run",
+    "Application.Exercicio2.executor": "Run",
+    "Application.Exercicio2_1.executor": "Run",
+    "Application.Exercicio3.executor": "Run",
+    "Application.Exercicio3_1.executor": "Run",
+    "Application.Exercicio4.executor": "Run",
+    "Application.Exercicio4_1.executor": "Run",
+    "Application.Exercicio5.executor": "Run",
+    "Application.Exercicio5_1.executor": "Run",
+    "Application.Exercicio6.executor": "Run",
+    "Application.Exercicio6_1.executor": "Run",
+    "Application.Exercicio7.executor": "Run",
+    "Application.Exercicio7_1.executor": "Run",
+    "Application.Exercicio8.executor": "Run",
+    "Application.Exercicio9.executor": "Run",
+    "Application.ExercicioAves.executor": "Run",
+    "Application.Exercicios4_1.executor": "Run",
+    "Application.Exercio4.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.IfElse.executor": "Run",
+    "Application.Incremeto.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MediaAluno.executor": "Run",
+    "Application.MinhaClasse.executor": "Run",
+    "Application.OlaMundo.executor": "Run",
+    "Application.OperadoresAritmeticos.executor": "Run",
+    "Application.OperadoresLogicos.executor": "Run",
+    "Application.OperadoresRelacionais.executor": "Run",
+    "Application.OperatesRelational.executor": "Run",
+    "Application.PrecoProduto.executor": "Run",
+    "Application.ReadingDataKeyboard.executor": "Run",
+    "Application.ReferenceType.executor": "Run",
+    "Application.ReferenceType2.executor": "Run",
+    "Application.SwitchCase.executor": "Run",
+    "Application.SwitchCase2.executor": "Run",
+    "Application.SwitchCase3.executor": "Run",
+    "Application.SwitchCase4.executor": "Run",
+    "Application.SwitchCase5.executor": "Run",
+    "Application.SwitchCase6.executor": "Run",
+    "Application.Teste1.executor": "Run",
+    "Application.ValorProduto.executor": "Run",
+    "Application.VaraiaveisChar.executor": "Run",
+    "Application.Variaveis.executor": "Run",
+    "Application.Voto.executor": "Run",
+    "Application.exercicio1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "F:/Serratec/curso-java-basico/aula-05/curso-java-basico/src/Main.java",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Serratec\curso-java-basico\aula-05\curso-java-basico\src\labs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Variaveis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thiago.cursojava.aula10.Variaveis" />
+      <module name="curso-java-basico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thiago.cursojava.aula10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Variaveis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a492f335-74d2-40e0-bcf7-4921efb40271" name="Changes" comment="" />
+      <created>1759192096381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759192096381</updated>
+      <workItem from="1759192097316" duration="5073000" />
+      <workItem from="1759535756918" duration="3745000" />
+      <workItem from="1759541992839" duration="1025000" />
+      <workItem from="1759618917060" duration="8921000" />
+      <workItem from="1759799103122" duration="5769000" />
+      <workItem from="1759885426620" duration="990000" />
+      <workItem from="1759945049158" duration="139000" />
+      <workItem from="1759964615857" duration="407000" />
+      <workItem from="1760111883464" duration="14194000" />
+      <workItem from="1760138050333" duration="60000" />
+      <workItem from="1760197892971" duration="10930000" />
+      <workItem from="1760454527086" duration="9204000" />
+      <workItem from="1760545003237" duration="13134000" />
+      <workItem from="1760570756344" duration="1194000" />
+      <workItem from="1760629193872" duration="7413000" />
+      <workItem from="1760637071389" duration="31000" />
+      <workItem from="1761062570507" duration="4213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -11,12 +11,17 @@ public class Exercicio3_1 {
         System.out.println("M - MASC");
         String input = sc.nextLine();
 
-        if(input.equalsIgnoreCase("F")){
-            System.out.println("F - FEM");
-        } else if (input.equalsIgnoreCase("M")) {
-            System.out.println("M - MASC");
-        } else {
-            System.out.println("A Opcao informada e invalida");
+        if(input.length() > 1){
+            System.out.println("Caractere Invalido");
+        }else {
+            if(input.equalsIgnoreCase("F")){
+                System.out.println("F - FEM");
+            } else if (input.equalsIgnoreCase("M")) {
+                System.out.println("M - MASC");
+            } else {
+                System.out.println("A Opcao informada e invalida");
+            }
         }
+        sc.close();
     }
 }

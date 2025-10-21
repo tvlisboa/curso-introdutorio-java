@@ -28,7 +28,7 @@ public class Exercicio5 {
             System.out.println("Aprovado com DISTINÇÃO");
         } else if (media >= 7.0) {
             System.out.println("Aluno aprovado");
-        } else if (media <= 7.0) {
+        } else{
             System.out.println("Aluno reprovado");
         }
         System.out.println("O aluno informado: " +nome);

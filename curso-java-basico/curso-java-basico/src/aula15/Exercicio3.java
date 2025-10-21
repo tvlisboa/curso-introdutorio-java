@@ -11,17 +11,21 @@ public class Exercicio3 {
         System.out.println("M - MASC");
         String opcao = sc.nextLine().toUpperCase();
 
-        switch (opcao){
-            case "F":
-                System.out.println("A opcao escolhida é: ");
-                System.out.println("F - FEM");
-            break;
-            case "M":
-                System.out.println("A opcao escolhida é: ");
-                System.out.println("M - MASC");
-            break;
-            default: System.out.println("Opcao digitada é invalida.");
-            break;
+        if(opcao.length() > 1){
+            System.out.println("Caractere Invalido");
+        }else {
+            switch (opcao){
+                case "F":
+                    System.out.println("A opcao escolhida é: ");
+                    System.out.println("F - FEM");
+                    break;
+                case "M":
+                    System.out.println("A opcao escolhida é: ");
+                    System.out.println("M - MASC");
+                    break;
+                default: System.out.println("Opcao digitada é invalida.");
+                    break;
+            }
         }
         sc.close();
     }

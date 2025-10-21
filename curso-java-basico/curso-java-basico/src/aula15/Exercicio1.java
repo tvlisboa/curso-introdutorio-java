@@ -15,11 +15,11 @@ public class Exercicio1 {
         int num2 = sc.nextInt();
 
         if(num1 > num2) {
-            System.out.println("O numero informado " + num1);
-            System.out.println("É maior");
+            System.out.println("O numero um é maior" + num1);
         } else if(num2 > num1) {
-            System.out.println("O numero informado " + num2);
-            System.out.println("É maior.");
+            System.out.println("O numero dois é maior " + num2);
+        }else{
+            System.out.println("Os numeros informados sao iguais");
         }
         sc.close();
     }

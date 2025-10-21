@@ -17,7 +17,7 @@ public class Exercicio10 {
         System.out.println("N - NOTURNO");
         String turno = sc.nextLine().toUpperCase();
 
-        if(turno.length()==2){
+        if(turno.length() > 1){
             System.out.println("caractere invalido");
         }else{
             switch (turno) {
