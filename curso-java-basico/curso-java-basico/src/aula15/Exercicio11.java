@@ -9,6 +9,9 @@ public class Exercicio11 {
         System.out.println("Informe nome do funcionario.");
         String nome = sc.nextLine();
 
+        System.out.println("Informe o setor do funcionario");
+        String setor = sc.nextLine();
+
         System.out.println("Informe o salario do funcionario.");
         double salarioAtual = sc.nextDouble();
         double percentual = 0;
@@ -26,10 +29,13 @@ public class Exercicio11 {
         double aumento = (salarioAtual / 100 ) * percentual;
         double salarioAjustado = salarioAtual + aumento;
 
+        System.out.println("###########################");
         System.out.println("O funcionario: " + nome);
-        System.out.println("Com o salario informado antigo: " + salarioAtual);
-        System.out.println("Recebeu o aumento de:" + percentual + "%");
+        System.out.println("Setor: " + setor);
+        System.out.println("Salario antigo: " + salarioAtual);
+        System.out.println("Recebeu o aumento de: " + percentual + "%");
         System.out.println("O aumento foi: " + aumento);
-        System.out.println("O salario atual: " + salarioAjustado);
+        System.out.println("O salario atual é: " + salarioAjustado);
+        System.out.println("###########################");
     }
 }

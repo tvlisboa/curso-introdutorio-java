@@ -9,6 +9,9 @@ public class Exercicio12 {
         System.out.println("Nome do funcionario.");
         String nomeFunc = sc.nextLine();
 
+        System.out.println("Informe o setor do funcionario.");
+        String setorFunc = sc.nextLine();
+
         System.out.println("Horas trablhadas diaramente.");
         double horasTrabalhadas = sc.nextDouble();
 
@@ -25,22 +28,38 @@ public class Exercicio12 {
         double valorSemana = valorDiaria * diasTrabalhados;
         double salarioBruto = valorSemana * semanasTrabalhadas;
 
-        double descontoIr = 0;
+        double percentIr = 0;
 
-        if(salarioBruto <= 900){
-            descontoIr = 0;
-        }else if(salarioBruto > 900 && salarioBruto <= 1500){
-            descontoIr = 5;
-        }else if(salarioBruto > 1500 && salarioBruto <= 2500){
-            descontoIr = 10;
-        } else if (salarioBruto > 2500) {
-            descontoIr = 20;
+        if(salarioBruto <= 900.00){
+            percentIr = 0;
+        }else if(salarioBruto > 900.00 && salarioBruto <= 1500.00){
+            percentIr = 5;
+        }else if(salarioBruto > 1500.00 && salarioBruto <= 2500.00){
+            percentIr = 10;
+        } else if (salarioBruto > 2500.00) {
+            percentIr = 20;
         }
 
-        double impostoRenda = (salarioBruto / 100) * descontoIr;
+        double impostoRenda = (salarioBruto / 100) * percentIr;
         double inns = (salarioBruto / 100) * 10;
-        double fgts = (salarioBruto / 100) - 11;
-        double totalDesconto = impostoRenda + inns;
-        double salarioFinal = salarioBruto - totalDesconto;
+        double sindicato = (salarioBruto / 100) * 3;
+        double fgts = (salarioBruto / 100) * 11;
+        double totalDesconto = impostoRenda + inns + sindicato;
+        double salarioLiquido = salarioBruto - totalDesconto;
+
+
+        System.out.println("SISTEMA DEMONSTRATIVO");
+        System.out.println("##############################");
+        System.out.println("Nome funcionario: " + nomeFunc);
+        System.out.println("Setor funcionario: " + setorFunc);
+        System.out.println("Salario bruto do funcionario: "  + salarioBruto);
+        System.out.println("Percentual de contribuicao IR: " + percentIr + " % ");
+        System.out.println("Total desconto IR: " + impostoRenda);
+        System.out.println("Desconto INSS: " + inns);
+        System.out.println("Desconto SINDICATO: " + sindicato);
+        System.out.println("Total de descontos aplicado: " + totalDesconto);
+        System.out.println("Salario liquido atual: " + salarioLiquido);
+        System.out.println("##############################");
+        sc.close();
     }
 }

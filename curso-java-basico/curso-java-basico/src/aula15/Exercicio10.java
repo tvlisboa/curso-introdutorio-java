@@ -22,16 +22,16 @@ public class Exercicio10 {
         }else{
             switch (turno) {
                 case "M":
-                    System.out.println("O turno escolhido é: " +turno);
-                    System.out.println("Bom dia." +nome);
+                    System.out.println("O turno escolhido é manhã: " +turno);
+                    System.out.println("Bom dia: " +nome);
                     break;
                 case "V":
-                    System.out.println("O turno escolhido é: " +turno);
-                    System.out.println("Boa tarde." +nome);
+                    System.out.println("O turno escolhido é tarde: " +turno);
+                    System.out.println("Boa tarde: " +nome);
                     break;
                 case "N":
-                    System.out.println("O turno escolhido é: " +turno);
-                    System.out.println("Boa noite." +nome);
+                    System.out.println("O turno escolhido é noite: " +turno);
+                    System.out.println("Boa noite: " +nome);
                     break;
                 default:
                     System.out.println("Opcao informada é invalida");
