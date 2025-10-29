@@ -5,8 +5,8 @@ public class LoopWhile {
         int count = 1;
         int max = 10;
 
-        System.out.println("Contador até o " + max);
-        while( count <= max){
+        System.out.println("Vamos contar até : " + max);
+        while( count < max){
             System.out.println("O valor de i é : " + count);
             count++;
         }
