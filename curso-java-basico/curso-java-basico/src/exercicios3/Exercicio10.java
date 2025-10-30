@@ -7,7 +7,7 @@ public class Exercicio10 {
 
         Scanner sc = new Scanner(System.in);
 
-         int[] vetorA = new int[3];
+         int[] vetorA = new int[10];
          double[] vetorB = new double[vetorA.length];
 
          for(int i = 0; i<vetorA.length; i++){
