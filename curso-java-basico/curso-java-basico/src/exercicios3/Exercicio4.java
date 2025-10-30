@@ -11,7 +11,7 @@ public class Exercicio4 {
         double[] vetorB = new double[vetorA.length];
 
         for(int i = 0; i<vetorA.length; i++){
-            System.out.println("Digite um valor a seguir: ");
+            System.out.println("Digite um valor a seguir: " + i);
             vetorA[i] = input.nextInt();
             vetorB[i] = Math.sqrt(vetorA[i]);
         }

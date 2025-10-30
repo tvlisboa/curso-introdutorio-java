@@ -10,7 +10,7 @@ public class Exercicio3 {
         int[] vetorB = new int[vetorA.length];
 
         for(int i = 0; i<vetorA.length; i++){
-            System.out.println("Digite um valor: ");
+            System.out.println("Digite um valor: " + i);
             vetorA[i] = input.nextInt();
             vetorB[i] = vetorA[i] * vetorA[i];
         }
